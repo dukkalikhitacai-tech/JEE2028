@@ -25,6 +25,7 @@ import { OfficialUpdatesSection } from './components/OfficialUpdatesSection';
 import { Footer } from './components/Footer';
 import { OnboardingModal } from './components/OnboardingModal';
 import { WhereAmIModal } from './components/WhereAmIModal';
+import { N8nChatWidget } from './components/N8nChatWidget';
 
 const AppContent: React.FC = () => {
   const { 
@@ -162,6 +163,9 @@ const AppContent: React.FC = () => {
         onClose={() => setIsWhereAmIOpen(false)}
         onNavigateToRoadmap={handleJumpToPhase}
       />
+
+      {/* Connected n8n AI Chatbot Widget */}
+      <N8nChatWidget />
 
       {/* Footer */}
       <Footer onNavigateTab={(tab) => setActiveTab(tab)} />
