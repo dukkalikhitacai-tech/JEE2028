@@ -1,0 +1,6 @@
+{
+  "name": "Road to IIT — JEE 2028",
+  "description": "A comprehensive 2-year preparation system and interactive visual roadmap for JEE Main & JEE Advanced 2028.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
